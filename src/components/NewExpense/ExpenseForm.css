@@ -1,0 +1,42 @@
+.expense_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.expense_control{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+input, label{
+    margin: .4rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 40px;
+    font-size: 1.2rem;
+    text-align: center;
+    height: 3.2rem;
+    border: none;
+    border-radius: 10px;
+    padding: 3px 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgb(129, 202, 11)
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}

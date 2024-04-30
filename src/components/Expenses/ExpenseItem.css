@@ -1,0 +1,50 @@
+/* Base styles */
+.expense-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 40px;
+  flex-wrap: wrap;
+}
+
+
+h2,
+.expense-item_price {
+  color: rgba(255, 255, 255, 0.9); 
+}
+
+.expense-item,
+.expense-item_description {
+  gap: 5rem;
+  font-size: 1.4rem;
+}
+
+.expense-item_price {
+  margin-left: auto;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: rgba(90, 49, 212, 0.8);
+  width: 5rem;
+  padding: 1.2rem;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.9); 
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 600px) {
+  .expense-item {
+    padding: 0.5rem;
+  }
+
+  .expense-item_description h2 {
+    font-size: 1.2rem;
+  }
+
+  .expense-item_price {
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,16 @@
+.new_Expense {
+  max-width: 60%;
+  background-color: rgba(253, 233, 10, 0.9);
+  margin: 2rem auto;
+  padding: 5rem;
+  border-radius: 20px;
+  font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .new_Expense {
+    max-width: 90%;
+    padding: 2rem;
+    font-size: 1.4rem;
+  }
+}

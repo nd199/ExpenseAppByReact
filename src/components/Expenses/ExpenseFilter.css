@@ -1,0 +1,21 @@
+.expenses-filters {
+  max-width: 90%;
+  padding: 1rem 2rem;
+  margin: auto;
+}
+.expenses-filter-control {
+  display: flex;
+  justify-content: space-between;
+}
+
+.year{
+  font-weight: bolder;
+  color: #fff;
+}
+
+.drop-down{
+    height: 2.9rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
